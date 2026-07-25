@@ -1,0 +1,152 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c89dbbf3-bcf3-42e6-a2f9-77956277a1d9")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 124.46 60.96)
+		(size 62.23 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2347bdd6-08a6-4bfa-ae07-72019a2c4dd2")
+		(property "Sheetname" "pwr_usb"
+			(at 124.46 59.6134 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pwr_usb.kicad_sch"
+			(at 124.46 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "spooder_pcb"
+				(path "/c89dbbf3-bcf3-42e6-a2f9-77956277a1d9"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 59.69 60.96)
+		(size 62.23 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a78d722f-239e-4024-93b8-a1e3d5318162")
+		(property "Sheetname" "MCU"
+			(at 59.69 59.6134 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 59.69 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "spooder_pcb"
+				(path "/c89dbbf3-bcf3-42e6-a2f9-77956277a1d9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.96 62.23)
+		(size 58.42 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e522436a-3f72-42a3-843f-6f85bc8ee112")
+		(property "Sheetname" "io"
+			(at 187.96 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io.kicad_sch"
+			(at 187.96 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 187.96 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "spooder_pcb"
+				(path "/c89dbbf3-bcf3-42e6-a2f9-77956277a1d9"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
