@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "c89dbbf3-bcf3-42e6-a2f9-77956277a1d9")
 	(paper "A4")
 	(lib_symbols)
@@ -18,11 +18,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "2347bdd6-08a6-4bfa-ae07-72019a2c4dd2")
 		(property "Sheetname" "pwr_usb"
 			(at 124.46 59.6134 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -34,6 +36,8 @@
 		)
 		(property "Sheetfile" "pwr_usb.kicad_sch"
 			(at 124.46 97.1046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45,6 +49,52 @@
 			(project "spooder_pcb"
 				(path "/c89dbbf3-bcf3-42e6-a2f9-77956277a1d9"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 59.69 102.87)
+		(size 60.96 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7ddb1fd7-ac73-4c63-84ea-bafd2444f0f7")
+		(property "Sheetname" "motordrivin"
+			(at 59.69 102.1584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motordrivin.kicad_sch"
+			(at 59.69 136.4746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "spooder_pcb"
+				(path "/c89dbbf3-bcf3-42e6-a2f9-77956277a1d9"
+					(page "5")
 				)
 			)
 		)
@@ -62,11 +112,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "a78d722f-239e-4024-93b8-a1e3d5318162")
 		(property "Sheetname" "MCU"
 			(at 59.69 59.6134 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -78,6 +130,8 @@
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
 			(at 59.69 97.1046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -106,11 +160,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "e522436a-3f72-42a3-843f-6f85bc8ee112")
 		(property "Sheetname" "io"
 			(at 187.96 61.5184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -120,6 +176,8 @@
 		)
 		(property "Sheetfile" "io.kicad_sch"
 			(at 187.96 97.1046 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -129,6 +187,8 @@
 		)
 		(property "Field2" ""
 			(at 187.96 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
